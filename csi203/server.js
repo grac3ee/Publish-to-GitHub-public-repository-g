@@ -5,7 +5,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-    res.end('CSI203: DIGITAL ARCHITECTURE AND OPERATING SYSTEMS\n This is a sample learning tool for CSI 203.\nWorkshop #3: starNode.js\n66079169 '); 
+    res.end('CSI203: DIGITAL ARCHITECTURE AND OPERATING SYSTEMS\n This is a sample learning tool for CSI 203.\nWorkshop #3: starNode.js\n66079169 เกตุุวรินทร์ เทพสาร\n'); 
 });
 
 server.listen(port, hostname, () => {
